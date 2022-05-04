@@ -1,16 +1,10 @@
+.wrapper {
+  display: flex;
+}
+
 .box {
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-  margin-bottom: 2px;
+  width: 200px;
+  height: 200px;
+  background: peru;
   color: white;
-  background-color: blue;
-}
-
-.box:nth-child(2) {
-  margin-left: 50px;
-}
-
-.box:nth-child(3) {
-  margin-left: 20px;
 }
