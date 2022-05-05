@@ -1,22 +1,18 @@
 .father {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  height: 65vh;
+  align-content: center;
+  height: 150vh;
 }
 
 .child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 200px;
   background: tomato;
   color: white;
-  text-align: center;
   font-size: 75px;
-}
-
-.child:nth-child(1) {
-  order: 0;
-}
-
-.child:nth-child(2) {
-  order: -1;
 }
