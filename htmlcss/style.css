@@ -8,32 +8,33 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 50vh;
   width: 100%;
 }
 
-.profile img {
+.profile__image {
   border-radius: 50%;
   margin-bottom: -10px;
   width: 100px;
 }
 
-.profile strong,
-.profile h1,
-.profile p {
+.profile__name,
+.profile__desc,
+.profile__introduce {
   letter-spacing: 2px;
 }
 
-.profile h1 {
+.profile__name {
   font-size: 20px;
   margin-bottom: 3.5px;
 }
 
-.profile strong {
+.profile__desc {
   margin-bottom: 7.5px;
 }
 
-.introduce {
-  width: 400px;
+.profile__introduce {
+  width: 500px;
   text-align: center;
   background-color: #3175b8;
   color: whitesmoke;
