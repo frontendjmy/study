@@ -14,27 +14,33 @@
           <h1 class="form-box__title w-100">Contact Us</h1>
         </form>
         <div class="form-box__email w-100">
-          <p>Your Email</p>
+          <label for="email">Your Email</label>
           <input
+            id="email"
             class="form-input"
             type="email"
             placeholder="email@example.com"
           />
         </div>
         <div class="form-box__user-name w-50">
-          <p>First name</p>
-          <input class="form-input" type="text" />
+          <label for="frist-name">First name</label>
+          <input id="frist-name" class="form-input" type="text" />
         </div>
         <div class="form-box__user-name w-50">
-          <p>Last name</p>
-          <input class="form-input" type="text" />
+          <label for="last-name">Last name</label>
+          <input id="last-name" class="form-input" type="text" />
         </div>
         <div class="form-box_message w-100">
-          <p>Message</p>
-          <textarea class="form-input" cols="30" rows="5"></textarea>
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            class="form-input"
+            cols="30"
+            rows="5"
+          ></textarea>
         </div>
         <div class="button">
-          <input id="for" type="checkbox" />
+          <input id="sub" type="checkbox" />
           <label for="sub" class="checkbox-desc">Subscribe</label>
           <button class="submit-button" type="submit">SEND</button>
         </div>
