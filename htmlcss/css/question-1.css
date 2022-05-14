@@ -1,0 +1,60 @@
+body {
+  background-color: whitesmoke;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 200px;
+  padding: 20px;
+  background-color: white;
+}
+.post-desc {
+  position: relative;
+  margin: 0 5px 0px 20px;
+  padding-top: 20px;
+}
+
+.post__profile-image {
+  float: left;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.post strong {
+  display: block;
+  margin-bottom: -15px;
+}
+
+.post h1 {
+  font-size: 16px;
+}
+
+.post p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.384);
+}
+
+.post button {
+  position: absolute;
+  right: 13px;
+  width: 5px;
+  height: 5px;
+}
+
+.preview {
+  position: relative;
+}
+
+.preview__image {
+  width: 180px;
+  height: 150px;
+}
+
+.preview__button {
+  position: absolute;
+  bottom: 10px;
+}
