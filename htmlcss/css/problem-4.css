@@ -1,0 +1,52 @@
+.background-table {
+  margin: auto;
+  padding: 50px;
+  border-radius: 5px;
+  max-width: 700px;
+  height: 450px;
+  background-color: #b2ccd6;
+}
+
+.table-box {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.table-box h1 {
+  font-weight: 400;
+}
+
+.table .table-box th,
+.table-box td {
+  color: #b2ccd6;
+  font-weight: 600;
+}
+
+.table-box th:last-child,
+.table-box td:last-child {
+  color: #133761;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+}
+
+h1,
+a {
+  color: #2c4e72;
+}
+
+.bottom-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-line button {
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: #133761;
+  color: #b2ccd6;
+}
