@@ -2,7 +2,7 @@ body {
   background-color: whitesmoke;
 }
 
-.post {
+.post-preview {
   display: flex;
   align-items: center;
   width: 700px;
@@ -10,7 +10,7 @@ body {
   padding: 20px;
   background-color: white;
 }
-.post-desc {
+.post {
   position: relative;
   margin: 0 5px 0px 20px;
   padding-top: 20px;
@@ -38,7 +38,7 @@ body {
   color: rgba(0, 0, 0, 0.384);
 }
 
-.post button {
+.share {
   position: absolute;
   right: 13px;
   width: 5px;
@@ -56,5 +56,6 @@ body {
 
 .preview__button {
   position: absolute;
+  right: 5px;
   bottom: 10px;
 }
