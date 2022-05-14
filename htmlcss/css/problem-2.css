@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
 * {
   color: whitesmoke;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  margin: 0;
 }
 
 .main-background {
@@ -33,4 +40,13 @@
   margin-bottom: -10px;
   font-size: 30px;
   letter-spacing: 5px;
+}
+
+.information {
+  position: absolute;
+  top: 204px;
+  left: -1px;
+  padding: 35px;
+  width: 500px;
+  background-color: #90887e;
 }
