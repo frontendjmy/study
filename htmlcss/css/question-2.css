@@ -1,0 +1,36 @@
+* {
+  color: whitesmoke;
+}
+
+.main-background {
+  position: relative;
+  padding: 1px;
+  width: 100%;
+  height: 500px;
+  background-image: url("https://static.dailytrend.co.kr/wp-content/uploads/2020/05/04073729/a5558674-513a-4564-9cbd-d935e924cb84.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.navbar li {
+  display: flex;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+
+.main-introduce {
+  position: absolute;
+  bottom: 50px;
+  padding-left: 30px;
+}
+
+.introduce__title {
+  margin-bottom: -10px;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
