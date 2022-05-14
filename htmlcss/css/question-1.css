@@ -38,7 +38,7 @@ body {
   color: rgba(0, 0, 0, 0.384);
 }
 
-.share {
+.post__share-button {
   position: absolute;
   right: 13px;
   width: 5px;
