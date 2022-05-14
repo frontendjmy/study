@@ -27,6 +27,11 @@ body {
 .navbar li {
   display: flex;
   font-size: 16px;
+}
+
+.navbar li,
+.introduce__title,
+.information-title {
   letter-spacing: 5px;
 }
 
@@ -39,12 +44,11 @@ body {
 .introduce__title {
   margin-bottom: -10px;
   font-size: 30px;
-  letter-spacing: 5px;
 }
 
 .information {
   position: absolute;
-  top: 204px;
+  bottom: -270px;
   left: -1px;
   padding: 35px;
   width: 500px;

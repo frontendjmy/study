@@ -43,6 +43,11 @@ body {
   font-weight: 400;
 }
 
+.profile-card__name,
+.profile-card__job {
+  color: black;
+}
+
 .profile-card__introduce {
   padding: 10px;
   border-radius: 3px;
