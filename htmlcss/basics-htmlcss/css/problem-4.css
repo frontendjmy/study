@@ -46,16 +46,31 @@
   position: relative;
 }
 
-.bottom-line a {
+.bottom-line__cart-link {
   position: absolute;
   top: 0px;
+  text-decoration: none;
 }
-.bottom-line button {
-  width: 200px;
+
+.bottom-line__cart-link:visited {
+  color: chocolate;
+}
+
+.bottom-line__purchase-btn {
   border: none;
   border-radius: 10px;
+  width: 200px;
   background-color: #133761;
   color: #b2ccd6;
+  cursor: pointer;
+}
+
+.bottom-line__purchase-btn:hover {
+  background-color: chocolate;
+}
+
+.bottom-line__purchase-btn:active {
+  background-color: crimson;
 }
 
 #total {
