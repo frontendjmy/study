@@ -17,6 +17,7 @@ body {
 
 .site-title {
   flex-grow: 2;
+  margin-left: 35px;
 }
 
 .site-menu {

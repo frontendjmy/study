@@ -1,0 +1,42 @@
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 850px;
+}
+
+.block__element {
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .block__element {
+    padding: 20px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block {
+    display: block;
+    width: 25%;
+  }
+
+  .block__element {
+    width: 100%;
+  }
+}
