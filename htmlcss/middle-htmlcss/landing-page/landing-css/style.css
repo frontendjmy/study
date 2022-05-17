@@ -1,0 +1,47 @@
+@import "./font.css";
+@import "./header.css";
+@import "./nav.css";
+@import "./guide.css";
+@import "./category.css";
+
+* {
+  margin: auto;
+  box-sizing: 0px;
+}
+
+/* font*/
+.font-wh,
+a:visited,
+a:link {
+  color: white;
+}
+
+.font-mi {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.font-sm {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+/* text */
+.section-title {
+  text-align: center;
+  padding: 20px;
+}
+
+/* btn */
+.btn-gray {
+  width: 110px;
+  height: 35px;
+  border: 0;
+  background-color: #444445;
+  color: #fff;
+}
+
+.btn-gray a {
+  text-decoration: none;
+}

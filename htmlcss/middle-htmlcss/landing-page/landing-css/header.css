@@ -1,0 +1,23 @@
+header {
+  position: relative;
+  background: linear-gradient(#4a92d9, #4d6ac5);
+  width: 100%;
+  height: 30vw;
+}
+
+.header-box {
+  position: absolute;
+  padding: 50px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+header img {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+  width: 21%;
+}
