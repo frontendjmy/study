@@ -1,5 +1,9 @@
-.footer {
-  background-color: antiquewhite;
-  width: 100%;
-  height: 100vh;
+footer {
+  height: 100px;
+  background-color: black;
+}
+
+footer i {
+  background-color: #4e61c0;
+  color: #fff;
 }

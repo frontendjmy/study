@@ -1,39 +1,27 @@
 .services {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
   background-color: #4e61c0;
   height: 350px;
 }
 
-.services-text h3 {
-  margin-bottom: 20px;
-}
-
 .services-text {
-  margin-top: 50px;
+  padding-top: 30px;
   text-align: center;
 }
 
-.services__icon-container {
-  display: flex;
-  max-width: 1200px;
-  text-align: center;
-}
-
-.services__icons {
-  padding: 0 50px 0 50px;
-}
-
-.services i {
+.icon-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
+}
+
+.icons {
+  padding: 50px;
+}
+
+.icons i {
   margin-bottom: 10px;
+  padding: 30px 35px;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
   background-color: #fff;
 }
 

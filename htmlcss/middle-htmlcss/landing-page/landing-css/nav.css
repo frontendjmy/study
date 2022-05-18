@@ -1,5 +1,7 @@
 .nav-portfolio {
   display: flex;
-  height: 330px;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
   text-align: center;
 }
