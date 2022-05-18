@@ -1,9 +1,16 @@
-footer {
-  height: 100px;
-  background-color: black;
+.footer {
+  height: 200px;
+  background-color: white;
 }
 
-footer i {
+.footer-text {
+  display: flex;
+  justify-content: center;
+}
+
+.icons i {
+  padding: 20px;
+  border: 50%;
   background-color: #4e61c0;
   color: #fff;
 }
