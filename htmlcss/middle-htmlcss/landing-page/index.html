@@ -8,25 +8,28 @@
     <link rel="stylesheet" href="./landing-css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="header-box">
-        <h1 class="title font-wh">Landing Page for Apps</h1>
-        <p class="font-wh font-sm">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
-          Autem, quam natus ea ut quisquam alias!
-        </p>
-        <button class="btn-gray font-wh" type="button">
-          <a href="#"> Show More </a>
-        </button>
+    <main class="main-background">
+      <div class="main-background__container">
+        <div class="main-text">
+          <h1 class="font-wh">Landing Page for Apps</h1>
+          <p class="font-wh font-sm">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+            Voluptatum, rem, distinctio! Dolores doloremque.
+          </p>
+          <button class="btn-gray font-wh" type="button">
+            <a href="#"> Show More </a>
+          </button>
+        </div>
+        <img
+          class="smart-phone"
+          src="https://codingapple.com/wp-content/uploads/2019/06/iphone.png"
+        />
       </div>
-      <img
-        src="https://codingapple.com/wp-content/uploads/2019/06/iphone.png"
-      />
-    </header>
+    </main>
 
-    <nav class="link-nav">
-      <div>
-        <strong class="font-mi">
+    <nav class="nav-portfolio">
+      <div class="nav-container">
+        <strong class="font-md">
           It is the perfect theme for your next Project!
         </strong>
         <p class="font-sm">
@@ -38,65 +41,85 @@
       </div>
     </nav>
 
-    <section class="guide">
-      <div class="section-title">
-        <strong class="font-wh font-sm">service</strong>
-        <h1 class="font-wh font-mi">What We offer</h1>
+    <section class="services">
+      <div class="services-text">
+        <h2 class="font-wh font-sm">services</h2>
+        <strong class="font-wh">What We offer</strong>
       </div>
-      <div class="icon-container">
-        <div class="icon-container__element">
-          <div class="element__icons">
-            <i class="fa-solid fa-mobile-screen-button fa-2x i-color"></i>
-          </div>
-          <strong class="font-wh font-mi">Responsive</strong>
+      <div class="services__icon-container">
+        <div class="services__icons">
+          <i class="fa-solid fa-mobile-screen-button fa-3x i-color"></i>
+          <strong class="font-wh font-md">Responsive</strong>
           <p class="font-wh font-sm">Lorem ipsum dolor sit.</p>
         </div>
-        <div class="icon-container__element">
-          <div class="element__icons">
-            <i class="fa-solid fa-flask fa-2x i-color"></i>
-          </div>
-          <strong class="font-wh font-mi">Experiments</strong>
+        <div class="services__icons">
+          <i class="fa-solid fa-flask fa-3x i-color"></i>
+          <strong class="font-wh font-md">Experiments</strong>
           <p class="font-wh font-sm">Lorem ipsum dolor sit.</p>
         </div>
-        <div class="icon-container__element">
-          <div class="element__icons">
-            <i class="fa-solid fa-bolt fa-2x i-color"></i>
-          </div>
-          <strong class="font-wh font-mi">Quickness</strong>
+        <div class="services__icons">
+          <i class="fa-solid fa-bolt fa-3x i-color"></i>
+          <strong class="font-wh font-md">Quickness</strong>
           <p class="font-wh font-sm">Lorem ipsum dolor sit.</p>
         </div>
-        <div class="icon-container__element">
-          <div class="element__icons">
-            <i class="fa-solid fa-earth-asia fa-2x i-color"></i>
-          </div>
-          <strong class="font-wh font-mi">Global Shipping</strong>
+        <div class="services__icons">
+          <i class="fa-solid fa-earth-asia fa-3x i-color"></i>
+          <strong class="font-wh font-md">Global Shipping</strong>
           <p class="font-wh font-sm">Lorem ipsum dolor sit.</p>
         </div>
       </div>
     </section>
 
-    <main>
+    <section class="portfolio">
       <div>
         <div class="section-title">
-          <strong class="font-sm">service</strong>
-          <h1 class="font-mi">What We offer</h1>
+          <h2 class="font-sm">Portfolio</h2>
+          <strong class="font-mi">What we can DO</strong>
         </div>
       </div>
 
-      <div class="category-container">
-        <div class="category">
-          <div class="category-font">
-            <h3 class="font-wh font-mi">Stationary</h3>
-            <p class="font-wh font-sm">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-          </div>
+      <div class="portfolio-container">
+        <div class="portfolio-item">
+          <h3 class="font-wh">Stationary</h3>
+          <p class="font-wh font-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
         </div>
-        <!-- <div class="catergory"></div>
-        <div class="catergory"></div>
-        <div class="catergory"></div> -->
+        <div class="portfolio-item">
+          <h3 class="font-wh">Stationary</h3>
+          <p class="font-wh font-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="portfolio-item">
+          <h3 class="font-wh">Stationary</h3>
+          <p class="font-wh font-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="portfolio-item">
+          <h3 class="font-wh">Stationary</h3>
+          <p class="font-wh font-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
       </div>
-    </main>
+    </section>
+
+    <!-- <section class="category">
+      <div footer-container>
+        <div>
+          <i class="fa-brands fa-google"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    </section> -->
 
     <!-- <i class="fa-brands fa-google"></i> -->
     <!-- <i class="fa-brands fa-twitter"></i> -->

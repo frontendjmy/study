@@ -1,0 +1,35 @@
+main {
+  width: 772;
+  height: 445px;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: 50%;
+  height: 50%;
+  background-image: url("https://codingapple.com/wp-content/uploads/2019/06/portfolio-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.portfolio-container div:nth-child(2) {
+  background-image: url("https://codingapple.com/wp-content/uploads/2019/06/portfolio-2.jpg");
+}
+
+.portfolio-container div:nth-child(3) {
+  background-image: url("https://codingapple.com/wp-content/uploads/2019/06/portfolio-3.jpg");
+}
+
+.portfolio-container div:nth-child(4) {
+  background-image: url("https://codingapple.com/wp-content/uploads/2019/06/portfolio-4.jpg");
+}
+
+.category-font {
+  padding: 20px;
+}

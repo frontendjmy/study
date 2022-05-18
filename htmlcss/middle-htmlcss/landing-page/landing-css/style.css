@@ -1,12 +1,14 @@
 @import "./font.css";
-@import "./header.css";
+@import "./main.css";
 @import "./nav.css";
-@import "./guide.css";
-@import "./category.css";
+@import "./services.css";
+@import "./portfolio.css";
+@import "./footer.css";
 
 * {
+  box-sizing: border-box;
   margin: auto;
-  box-sizing: 0px;
+  font-size: 20px;
 }
 
 /* font*/
@@ -16,32 +18,36 @@ a:link {
   color: white;
 }
 
-.font-mi {
-  display: block;
-  font-size: 17px;
+.font-sm {
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
-.font-sm {
-  font-size: 13px;
-  margin-bottom: 10px;
+.font-md {
+  display: block;
+  margin-bottom: 20px;
 }
 
 /* text */
 .section-title {
-  text-align: center;
   padding: 20px;
+  text-align: center;
 }
 
 /* btn */
 .btn-gray {
-  width: 110px;
-  height: 35px;
+  padding: 10px;
   border: 0;
+  border-radius: 5px;
+  width: 140px;
+  height: 60px;
   background-color: #444445;
   color: #fff;
+  text-align: center;
+  font-weight: 800;
 }
 
 .btn-gray a {
   text-decoration: none;
+  font-size: 15px;
 }

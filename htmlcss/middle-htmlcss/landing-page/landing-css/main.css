@@ -1,0 +1,26 @@
+.main-background {
+  background: linear-gradient(#4a92d9, #4d6ac5);
+  height: 550px;
+}
+
+.main-background__container {
+  position: relative;
+  height: 100%;
+  max-width: 1200px;
+}
+
+.main-text {
+  padding: 80px 25px;
+}
+
+.main-text h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.smart-phone {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  width: 400px;
+}

@@ -1,25 +1,39 @@
-.guide {
+.services {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  padding: 30px;
-  height: 25vw;
   background-color: #4e61c0;
+  height: 350px;
 }
 
-.icon-container {
+.services-text h3 {
+  margin-bottom: 20px;
+}
+
+.services-text {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.services__icon-container {
   display: flex;
+  max-width: 1200px;
+  text-align: center;
 }
 
-.element__icons i {
+.services__icons {
+  padding: 0 50px 0 50px;
+}
+
+.services i {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
   border-radius: 50%;
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   background-color: #fff;
 }
 
