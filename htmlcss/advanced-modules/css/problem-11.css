@@ -1,0 +1,17 @@
+.green, .blue, .red {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}/*# sourceMappingURL=problem-10.css.map */

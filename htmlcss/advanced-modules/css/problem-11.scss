@@ -1,0 +1,20 @@
+%box {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.red {
+  @extend %box;
+  background-color: red;
+}
+
+.blue {
+  @extend %box;
+  background-color: blue;
+}
+
+.green {
+  @extend %box;
+  background-color: green;
+}
