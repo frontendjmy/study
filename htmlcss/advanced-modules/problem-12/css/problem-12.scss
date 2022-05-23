@@ -1,0 +1,11 @@
+.sh-list {
+  li {
+    display: block;
+    padding: 15px;
+    border: 1px solid #eee;
+  }
+  li:hover {
+    background-color: cadetblue;
+    color: #fff;
+  }
+}
