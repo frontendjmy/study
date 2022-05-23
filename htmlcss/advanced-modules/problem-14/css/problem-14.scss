@@ -1,7 +1,8 @@
-@mixin box {
+@mixin column($col-wd) {
   border: 1px solid #eee;
   background-color: #e6e1ea;
   text-align: center;
+  width: $col-wd;
 }
 
 .row {
@@ -10,16 +11,13 @@
 }
 
 .col-6 {
-  @include box;
-  width: 50%;
+  @include column(50%);
 }
 
 .col-4 {
-  @include box;
-  width: 33.33%;
+  @include column(33.33%);
 }
 
 .col-3 {
-  @include box;
-  width: 25%;
+  @include column(25%);
 }
