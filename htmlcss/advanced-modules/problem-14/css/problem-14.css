@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col-6 {
+  border: 1px solid #eee;
+  background-color: #e6e1ea;
+  text-align: center;
+  width: 50%;
+}
+
+.col-4 {
+  border: 1px solid #eee;
+  background-color: #e6e1ea;
+  text-align: center;
+  width: 33.33%;
+}
+
+.col-3 {
+  border: 1px solid #eee;
+  background-color: #e6e1ea;
+  text-align: center;
+  width: 25%;
+}/*# sourceMappingURL=problem-14.css.map */

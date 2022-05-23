@@ -1,0 +1,25 @@
+@mixin box {
+  border: 1px solid #eee;
+  background-color: #e6e1ea;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col-6 {
+  @include box;
+  width: 50%;
+}
+
+.col-4 {
+  @include box;
+  width: 33.33%;
+}
+
+.col-3 {
+  @include box;
+  width: 25%;
+}
