@@ -1,0 +1,35 @@
+div:first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #dff0d7;
+  color: #6da79c;
+}
+
+div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #5685af;
+  color: #d9edf7;
+}
+
+div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #c7ad87;
+  color: #fcf8e3;
+}/*# sourceMappingURL=problem-13.css.map */

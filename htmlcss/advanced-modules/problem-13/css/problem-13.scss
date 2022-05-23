@@ -1,0 +1,23 @@
+@mixin box-setting($bg-color, $text-color) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+div:first-child {
+  @include box-setting(#dff0d7, #6da79c);
+}
+
+div:nth-child(2) {
+  @include box-setting(#5685af, #d9edf7);
+}
+
+div:nth-child(3) {
+  @include box-setting(#c7ad87, #fcf8e3);
+}
