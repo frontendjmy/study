@@ -31,11 +31,6 @@ p {
   margin-bottom: 10px;
 }
 
-.ani-navbar:hover {
-  transform: translateX(0px);
-  text-align: center;
-}
-
 .ani-navbar:hover p {
   animation-name: slide;
   animation-duration: 1s;
