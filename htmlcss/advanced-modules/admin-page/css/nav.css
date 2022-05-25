@@ -1,0 +1,41 @@
+.side-bar {
+  position: fixed;
+  width: 35px;
+  height: 100vh;
+  background-color: #494cb4;
+  color: #fff;
+  transition: 1s all;
+  z-index: 5;
+}
+
+.side-icons {
+  padding: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.side-icons:first-child {
+  margin-top: 20px;
+}
+
+.side-bar span {
+  display: block;
+  transform: translateX(-150px);
+}
+
+.side-bar:hover {
+  width: 120px;
+}
+
+.side-bar:hover span {
+  animation: slide 1s forwards;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-250px) translateY(-14px);
+  }
+  100% {
+    transform: translateX(25px) translateY(-14px);
+  }
+}

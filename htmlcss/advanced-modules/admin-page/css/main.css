@@ -1,0 +1,10 @@
+main {
+  margin-left: 35px;
+  width: 100%;
+  background-color: #eee;
+  z-index: 1;
+}
+
+.mian-text {
+  color: aliceblue;
+}
