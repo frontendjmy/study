@@ -40,13 +40,6 @@ body {
   color: rgba(0, 0, 0, 0.384);
 }
 
-.post__share-button {
-  position: absolute;
-  right: 13px;
-  width: 5px;
-  height: 5px;
-}
-
 .preview {
   position: relative;
 }
@@ -54,10 +47,4 @@ body {
 .preview__image {
   width: 180px;
   height: 150px;
-}
-
-.preview__button {
-  position: absolute;
-  right: 5px;
-  bottom: 10px;
 }
