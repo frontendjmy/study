@@ -1,6 +1,9 @@
 header {
   margin-left: 35px;
-  box-shadow: 0px 2px #eee;
+}
+
+.header-shadow {
+  box-shadow: 0px 3px 5px rgb(158, 158, 158);
 }
 
 .search-form input {
