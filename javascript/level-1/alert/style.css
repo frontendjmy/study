@@ -1,0 +1,33 @@
+.alert-box {
+  display: none;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 35%;
+  background-color: #cee1fe;
+  color: #3e5ba2;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  width: 75px;
+  height: 30px;
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.btn:active {
+  background-color: #75151e;
+  box-shadow: 1px 1px 2px salmon;
+}
+
+.alert-btn {
+  position: absolute;
+  border: none;
+  top: 20px;
+  right: 50px;
+  background-color: #cee1fe;
+  font-size: 20px;
+}
