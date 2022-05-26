@@ -14,21 +14,24 @@
   </head>
   <body>
     <div class="alert-box" id="alert">
-      <strong>Lorem</strong> ipsum dolor sit!
-      <button class="alert-btn" onclick="hideAlert()">
-        <i class="bi bi-x-lg"></i>
-      </button>
+      <div class="box__bg">
+        <p>
+          <strong id="str-text"></strong>
+          입력해주세요.
+        </p>
+        <button class="alert-btn" onclick="alert('none')">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
     </div>
 
-    <button class="btn" onclick="showAlert()">띄우기</button>
+    <button class="btn" onclick="alert('block',' 아이디를 ')">ID</button>
+    <button class="btn" onclick="alert('block','비밀번호를 ')">Password</button>
 
     <script>
-      function hideAlert() {
-        document.getElementById("alert").style.display = "none";
-      }
-
-      function showAlert() {
-        document.getElementById("alert").style.display = "block";
+      function alert(type, text) {
+        document.getElementById("alert").style.display = type;
+        document.getElementById("str-text").innerText = text;
       }
     </script>
   </body>
