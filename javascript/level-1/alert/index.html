@@ -15,19 +15,21 @@
   <body>
     <div class="alert-box" id="alert">
       <strong>Lorem</strong> ipsum dolor sit!
-      <button
-        class="alert-btn"
-        onclick="document.getElementById('alert').style.display='none';"
-      >
+      <button class="alert-btn" onclick="hideAlert()">
         <i class="bi bi-x-lg"></i>
       </button>
     </div>
 
-    <button
-      class="btn"
-      onclick="document.getElementById('alert').style.display='block';"
-    >
-      띄우기
-    </button>
+    <button class="btn" onclick="showAlert()">띄우기</button>
+
+    <script>
+      function hideAlert() {
+        document.getElementById("alert").style.display = "none";
+      }
+
+      function showAlert() {
+        document.getElementById("alert").style.display = "block";
+      }
+    </script>
   </body>
 </html>
