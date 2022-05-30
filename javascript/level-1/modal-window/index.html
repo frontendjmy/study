@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Window</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="modal-bg">
+      <div class="overlay"></div>
+      <button class="btn show-btn">Show Modal</button>
+
+      <div class="modal">
+        <h1>Modal Window</h1>
+        <button class="btn close-btn">
+          <strong>닫기</strong>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      const showBtn = document.querySelector(".show-btn");
+      const closeBtn = document.querySelector(".close-btn");
+
+      function showModal() {
+        document.querySelector(".modal").classList.add("show-modal");
+        document.querySelector(".overlay").classList.add("show-overlay");
+      }
+
+      function hideModal() {
+        document.querySelector(".modal").classList.remove("show-modal");
+        document.querySelector(".overlay").classList.remove("show-overlay");
+      }
+
+      showBtn.addEventListener("click", showModal);
+      closeBtn.addEventListener("click", hideModal);
+    </script>
+  </body>
+</html>
