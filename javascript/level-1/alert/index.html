@@ -19,7 +19,7 @@
           <strong id="str-text"></strong>
           입력해주세요.
         </p>
-        <button class="alert-btn" onclick="alert('none')">
+        <button id="close-btn">
           <i class="bi bi-x-lg"></i>
         </button>
       </div>
@@ -33,6 +33,12 @@
         document.getElementById("alert").style.display = type;
         document.getElementById("str-text").innerText = text;
       }
+
+      document
+        .getElementById("close-btn")
+        .addEventListener("click", function close() {
+          document.getElementById("alert").style.display = "none";
+        });
     </script>
   </body>
 </html>
