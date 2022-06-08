@@ -11,7 +11,7 @@
   <body>
     <div class="modal-bg">
       <div class="overlay"></div>
-      <button class="btn show-btn">로그인</button>
+      <button class="btn open-btn">로그인</button>
 
       <div class="modal">
         <h1>로그인하세요</h1>
@@ -36,19 +36,5 @@
     </div>
 
     <script src="./app.js"></script>
-    <script>
-      document
-        .getElementById("login-form")
-        .addEventListener("submit", function (event) {
-          if (document.getElementById("modal__id").value == "") {
-            alert("아이디를 입력해주세요.");
-            event.preventDefault();
-          }
-          if (document.getElementById("modal__pw").value == "") {
-            alert("비밀번호를 입력해주세요.");
-            event.preventDefault();
-          }
-        });
-    </script>
   </body>
 </html>
