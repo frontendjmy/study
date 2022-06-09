@@ -20,8 +20,7 @@ document
     if (document.getElementById("modal__id").value == "") {
       alert("아이디를 입력해주세요.");
       event.preventDefault();
-    }
-    if (document.getElementById("modal__pw").value == "") {
+    } else if (document.getElementById("modal__pw").value == "") {
       alert("비밀번호를 입력해주세요.");
       event.preventDefault();
     } else if (document.getElementById("modal__pw").value.length < 5) {
@@ -29,3 +28,4 @@ document
       event.preventDefault();
     }
   });
+ 
