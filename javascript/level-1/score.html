@@ -8,16 +8,16 @@
   </head>
   <body>
     <script>
-      function game(num) {
-        if (num % 9 == 0) {
-          console.log("박수*2");
-        } else if (num % 3 == 0) {
-          console.log("박수");
+      function test(a, b) {
+        if (a < 40 || b < 40) {
+          console.log("불합격");
+        } else if (a + b > 120) {
+          console.log("합격");
         } else {
-          console.log("통과");
+          console.log("불합격");
         }
       }
-      game(27);
+      test(30, 100);
     </script>
   </body>
 </html>
