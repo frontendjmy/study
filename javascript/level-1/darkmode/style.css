@@ -1,0 +1,45 @@
+* {
+  margin: 0 auto;
+}
+
+.bg {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.change-btn {
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.bg-white {
+  background-color: whitesmoke;
+}
+
+.btn-white {
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+.btn-white:hover {
+  background-color: cornflowerblue;
+}
+
+.bg-dark {
+  background-color: #333333;
+}
+
+.btn-dark {
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.btn-dark:hover {
+  background-color: mediumseagreen;
+}
