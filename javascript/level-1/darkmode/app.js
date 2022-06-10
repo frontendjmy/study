@@ -1,4 +1,4 @@
-var count = 0;
+let count = 0;
 const changeBgBtn = document.querySelector(".change-btn");
 const changeBg = document.querySelector(".bg");
 
