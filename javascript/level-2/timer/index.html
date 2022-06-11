@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="alert alert-danger">
+      <span class="change-num">5</span>초 이내 구매시 사은품 증정!
+    </div>
+  </body>
+
+  <script>
+    const alertNum = document.querySelector(".change-num");
+    let count = 5;
+
+    function timeChange() {
+      count -= 1;
+      if (count >= 0) {
+        alertNum.innerHTML = count;
+      }
+    }
+
+    setInterval(timeChange, 1000);
+  </script>
+</html>

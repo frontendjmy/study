@@ -1,0 +1,13 @@
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  background-color: #f8d7db;
+  color: #793b46;
+}
+
+.none-alert {
+  display: none;
+}
