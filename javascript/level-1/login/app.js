@@ -16,10 +16,19 @@ openBtn.addEventListener("click", showModal);
 closeBtn.addEventListener("click", hideModal);
 
 loginForm.addEventListener("submit", function (event) {
-  if (document.getElementById("modal__id").value == "") {
-    alert("아이디를 입력해주세요.");
+  let modalId = document.getElementById("modal__id").value;
+  let modalPw = document.getElementById("modal__pw").value;
+
+  if (/\S+@\S+\.\S+/.test(modalId) == false) {
+    alert("올바른 이메일 형식이 아닙니다.");
     event.preventDefault();
-  } else if (document.getElementById("modal__pw").value == "") {
+  } else if (modalId == "") {
+    alert("이메일을 입력해주세요.");
+    event.preventDefault();
+  } else if (/[A-Z]/.test(modalPw) == true) {
+    alert("비밀번호에 대문자가 입력되었습니다.");
+    event.preventDefault();
+  } else if (modalPw == "") {
     alert("비밀번호를 입력해주세요.");
     event.preventDefault();
   } else if (document.getElementById("modal__pw").value.length < 5) {
