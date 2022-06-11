@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>태조 이성계가 태어난 년도는?</p>
+    <input type="text" id="answer" />
+    <button id="send-answer">제출</button>
+
+    <script>
+      var present = 60000;
+      var future = 0;
+      if (present >= 50000) {
+        future = present * 1.2 * 1.2;
+      } else {
+        future = present * 1.15 * 1.15;
+      }
+      console.log(future);
+
+      // Refill
+      var first = 360;
+      var total = 0;
+      total = (first * 2) / 3 + (((first * 2) / 3) * 2) / 3;
+      console.log(total);
+
+      let count = 0;
+      const submitBtn = document.getElementById("send-answer");
+
+      function answerAlert() {
+        count++;
+        if (count == 3) {
+          alert("멍청아");
+        }
+
+        if (document.getElementById("answer").value == 1335) {
+          alert("정답입니다.");
+        }
+      }
+
+      submitBtn.addEventListener("click", answerAlert);
+    </script>
+  </body>
+</html>
