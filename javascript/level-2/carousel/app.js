@@ -2,7 +2,6 @@
 const firstBtn = document.querySelector(".frist-btn");
 const secondBtn = document.querySelector(".second-btn");
 const thirdBtn = document.querySelector(".third-btn");
-
 let photoNum = 1;
 
 function fristSlide() {
@@ -12,6 +11,7 @@ function fristSlide() {
   document
     .querySelector(".slide-container")
     .classList.remove("slide-third-img");
+  photoNum = 1;
 }
 
 function secondSlide() {
@@ -24,7 +24,7 @@ function secondSlide() {
 
 function thirdSlide() {
   document.querySelector(".slide-container").classList.add("slide-second-img");
-  document;
+
   document.querySelector(".slide-container").classList.add("slide-third-img");
   photoNum = 3;
 }
