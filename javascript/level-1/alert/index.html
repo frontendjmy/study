@@ -28,17 +28,6 @@
     <button class="btn" onclick="alert('block',' 아이디를 ')">ID</button>
     <button class="btn" onclick="alert('block','비밀번호를 ')">Password</button>
 
-    <script>
-      function alert(type, text) {
-        document.getElementById("alert").style.display = type;
-        document.getElementById("str-text").innerText = text;
-      }
-
-      document
-        .getElementById("close-btn")
-        .addEventListener("click", function close() {
-          document.getElementById("alert").style.display = "none";
-        });
-    </script>
+    <script src="./app.js"></script>
   </body>
 </html>

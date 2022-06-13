@@ -7,17 +7,10 @@
     <title>Document</title>
   </head>
   <body>
-    <script>
-      function game(num) {
-        if (num % 9 == 9) {
-          console.log("박수*2");
-        } else if (num % 3 == 0) {
-          console.log("박수");
-        } else {
-          console.log("통과");
-        }
-      }
-      game(9);
-    </script>
+    <p>태조 이성계가 태어난 년도는?</p>
+    <input type="text" id="answer" />
+    <button id="send-answer">제출</button>
+
+    <script src="./app.js"></script>
   </body>
 </html>

@@ -5,27 +5,20 @@ const thirdBtn = document.querySelector(".third-btn");
 let photoNum = 1;
 
 function fristSlide() {
-  document
-    .querySelector(".slide-container")
-    .classList.remove("slide-second-img");
-  document
-    .querySelector(".slide-container")
-    .classList.remove("slide-third-img");
+  document.querySelector(".slide-container").classList.remove("second-img");
+  document.querySelector(".slide-container").classList.remove("third-img");
   photoNum = 1;
 }
 
 function secondSlide() {
-  document.querySelector(".slide-container").classList.add("slide-second-img");
-  document
-    .querySelector(".slide-container")
-    .classList.remove("slide-third-img");
+  document.querySelector(".slide-container").classList.add("second-img");
+  document.querySelector(".slide-container").classList.remove("third-img");
   photoNum = 2;
 }
 
 function thirdSlide() {
-  document.querySelector(".slide-container").classList.add("slide-second-img");
-
-  document.querySelector(".slide-container").classList.add("slide-third-img");
+  document.querySelector(".slide-container").classList.add("second-img");
+  document.querySelector(".slide-container").classList.add("third-img");
   photoNum = 3;
 }
 
@@ -40,12 +33,10 @@ const prevBtn = document.querySelector(".prev-btn");
 function next() {
   photoNum += 1;
   if (photoNum == 2) {
-    document
-      .querySelector(".slide-container")
-      .classList.add("slide-second-img");
+    document.querySelector(".slide-container").classList.add("second-img");
     photoNum == 2;
   } else if (photoNum == 3) {
-    document.querySelector(".slide-container").classList.add("slide-third-img");
+    document.querySelector(".slide-container").classList.add("third-img");
     photoNum == 3;
   }
 }
@@ -53,14 +44,10 @@ function next() {
 function prev() {
   if (photoNum >= 3) {
     photoNum -= 1;
-    document
-      .querySelector(".slide-container")
-      .classList.remove("slide-third-img");
+    document.querySelector(".slide-container").classList.remove("third-img");
   } else if (photoNum == 2) {
     photoNum -= 1;
-    document
-      .querySelector(".slide-container")
-      .classList.remove("slide-second-img");
+    document.querySelector(".slide-container").classList.remove("second-img");
   }
 }
 
