@@ -31,13 +31,13 @@ const nextBtn = document.querySelector(".next-btn");
 const prevBtn = document.querySelector(".prev-btn");
 
 function next() {
-  photoNum += 1;
+  if (photoNum++ == 3) {
+    photoNum = 3;
+  }
   if (photoNum == 2) {
     document.querySelector(".slide-container").classList.add("second-img");
-    photoNum == 2;
   } else if (photoNum == 3) {
     document.querySelector(".slide-container").classList.add("third-img");
-    photoNum == 3;
   }
 }
 
