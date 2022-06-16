@@ -1,0 +1,44 @@
+/* toggle */
+.list-group {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* scroll event */
+:root {
+  scroll-behavior: auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.top-bg {
+  height: 570px;
+  width: 100%;
+  background-color: cornflowerblue;
+  transition: all 1s;
+}
+
+.bottom-bg {
+  height: 100vh;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.fs-change {
+  font-size: 30px;
+}
+
+.terms {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+}
