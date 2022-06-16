@@ -23,7 +23,6 @@ function scrollEvent() {
 window.addEventListener("scroll", scrollEvent);
 
 // 회원약관 다 읽었을 시 alert
-
 const scrollTerms = document.querySelector(".terms");
 
 function scrollAlert() {
