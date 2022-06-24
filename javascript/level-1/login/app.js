@@ -1,15 +1,17 @@
 const openBtn = document.querySelector(".open-btn");
 const closeBtn = document.querySelector(".close-btn");
 const loginForm = document.getElementById("login-form");
+const modal = document.querySelector(".modal");
+const overlay = document.querySelector(".overlay");
 
 function showModal() {
-  document.querySelector(".modal").classList.add("show-modal");
-  document.querySelector(".overlay").classList.add("show-overlay");
+  modal.classList.add("show-modal");
+  overlay.classList.add("show-overlay");
 }
 
 function hideModal() {
-  document.querySelector(".modal").classList.remove("show-modal");
-  document.querySelector(".overlay").classList.remove("show-overlay");
+  modal.classList.remove("show-modal");
+  overlay.classList.remove("show-overlay");
 }
 
 openBtn.addEventListener("click", showModal);
@@ -36,3 +38,5 @@ loginForm.addEventListener("submit", function (event) {
     event.preventDefault();
   }
 });
+
+overlay.addEventListener("click", hideModal);
