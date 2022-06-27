@@ -18,7 +18,7 @@ function hideModal() {
 openBtn.addEventListener("click", showModal);
 closeBtn.addEventListener("click", hideModal);
 
-// show 상태에서 bg 클릭시 닫기 기능
+// show 상태에서 bg 클릭시 닫기
 overlay.addEventListener("click", function (e) {
   if (e.target == overlay) {
     modal.classList.remove("show-modal");
