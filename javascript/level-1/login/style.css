@@ -10,14 +10,14 @@
   color: #ffffff;
   height: 50px;
   width: 150px;
-  box-shadow: 3px 3px 2px #505883;
+
   cursor: pointer;
   outline: none;
 }
 
 .btn:hover {
   background-color: #0077ff;
-  transition: all 0.1s;
+  transition: all 0.6s;
   box-shadow: none;
 }
 
@@ -75,6 +75,6 @@
 
 .modal__ip:focus {
   border: 1px solid #0077ff;
-  transition: all 0.5s;
+  transition: all 0.6s;
   outline: none;
 }

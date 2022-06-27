@@ -7,7 +7,7 @@ const secondContent = document.querySelectorAll(".tab-content")[1];
 const thirdBtn = document.querySelectorAll(".tab-button")[2];
 const thirdContent = document.querySelectorAll(".tab-content")[2];
 
-function firstShow() {
+function firstShow(e) {
   firstBtn.classList.add("orange");
   firstContent.classList.add("show");
   secondBtn.classList.remove("orange");
