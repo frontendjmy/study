@@ -4,11 +4,14 @@ let products = [
   { id: 2, price: 60000, title: "Black Monastery" },
 ];
 
-document.querySelectorAll(".card-body h5")[0].innerHTML = products[0].title;
-document.querySelectorAll(".card-body p")[0].innerHTML = products[0].price;
+const title = document.querySelectorAll(".card-body h5");
+const text = document.querySelectorAll(".card-body p");
 
-document.querySelectorAll(".card-body h5")[1].innerHTML = products[1].title;
-document.querySelectorAll(".card-body p")[1].innerHTML = products[1].price;
+title[0].innerHTML = products[0].title;
+text[0].innerHTML = products[0].price;
 
-document.querySelectorAll(".card-body h5")[2].innerHTML = products[2].title;
-document.querySelectorAll(".card-body p")[2].innerHTML = products[2].price;
+title[1].innerHTML = products[1].title;
+text[1].innerHTML = products[1].price;
+
+title[2].innerHTML = products[2].title;
+text[2].innerHTML = products[2].price;
